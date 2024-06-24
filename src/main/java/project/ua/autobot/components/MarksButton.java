@@ -54,54 +54,56 @@ public class MarksButton extends TelegramLongPollingBot {
         SendMessage sendMessage = new SendMessage();
         sendMessage.setChatId(String.valueOf(chatId));
         sendMessage.setText(
-            "\uD83C\uDDEF\uD83C\uDDF5 `Acura`\n_Соітіро Хонда - 1986 рік_\n" +
-            "Північноамериканський підрозділ японського концерну Honda, " +
-            "який спеціалізується на виробництві люксових та спортивних автомобілів.\n\n" +
-            "\uD83C\uDDEE\uD83C\uDDF9 `Alfa Romeo`\n_Нікола Ромео - 1910 рік_\n" +
-            "Легендарна італійська марка, заснована в Мілані в 1910 році. " +
-            "У ранні роки вона спеціалізувалася на виробництві дорогих " +
-            "автомобілів із високими динамічними показниками.\n\n" +
-            "\uD83C\uDDEC\uD83C\uDDE7 `Aston Martin`\n_Лайонел Мартін - 1913 рік_\n" +
-            "Компанія Aston Martin випускала британські спортивні " +
-            "автомобілі вищого класу протягом всієї своєї 100-річної історії.\n\n" +
-            "\uD83C\uDDE9\uD83C\uDDEA `Audi`\n_Август Хорьх - 1909 рік_\n" +
-            "Німецька компанія Audi зробила значний внесок у розвиток світового " +
-            "автомобілебудування, дотримуючись гасла \"Перевага через технології\". " +
-            "У 1932 році Audi разом із трьома іншими виробниками увійшла до складу концерну " +
-            "Auto Union, звідки й отримала емблему у вигляді чотирьох кілець.\n\n" +
-            "\uD83C\uDDEC\uD83C\uDDE7 `Bentley`\n_Волтер Бентлі - 1919 рік_\n" +
-            "Такі машини однаково підходили як для гоночних заїздів, так і для повсякденного " +
-            "використання, що цінувалися багатими британськими автомобілістами.\n\n" +
-            "\uD83C\uDDE9\uD83C\uDDEA `BMW`\n_Фріц Фідлер - 1916 рік_\n" +
-            "_Bayerische Motoren Werke - Баварський моторний завод_\n" +
-            "У 30-ті роки BMW намагалася конкурувати з Mercedes-Benz на ринку " +
-            "люксових автомобілів, а заразом демонструвала перевагу німецької " +
-            "техніки на гоночних трасах за допомогою спортивної моделі BMW 328.\n\n" +
-            "\uD83C\uDDEB\uD83C\uDDF7 `Bugatti`\n_Етторе Бугатті - 1909 рік_\n" +
-            "В основі перших моделей Bugatti лежало просте та легке шасі у поєднанні " +
-            "з потужним двигуном. Така конструкція застосовувалася як на серійних, " +
-            "так і на гоночних машинах, забезпечуючи останнім переваги у змаганнях.\n\n" +
-            "\uD83C\uDDFA\uD83C\uDDF8 `Cadillac`\n_Генрі Леланд - 1902 рік_\n" +
-            "\"Світовий стандарт\" - так компанію Cadillac охрестили ще на зорі її розвитку, " +
-            "і вона відповідала цьому званню протягом багатьох років, будучи найбільшим " +
-            "автовиробником в США. У 1909 році Cadillac увійшов до складу концерну " +
-            "General Motors і з того часу є його люксовим підрозділом.\n\n" +
-            "\uD83C\uDDFA\uD83C\uDDF8 `Chevrolet`\n_Луї Шевроле - 1911 рік_\n" +
-            "Спочатку під маркою Chevrolet випускалися відносно дорогі машини, " +
-            "але в 20-ті роки президент GM Альфред Слоун поставив Chevrolet " +
-            "на нижчу сходинку у своїй ціновій ієрархії, і за нею закріпився імідж " +
-            "бюджетного бренду з \"недорогої трійки\" (Ford, Chevrolet та Plymouth).\n\n" +
-            "\uD83C\uDDFA\uD83C\uDDF8 `Chrysler`\n_Волтер Крайслер - 1925 рік_\n" +
-            "Американський автовиробник №3, що входить до складу " +
-            "\"Великої детройтської трійки\" поряд із General Motors та Ford. " +
-            "Підприємство було створено Волтером Крайслером у 1925 році " +
-            "на основі придбаної ним компанії Maxwell.\n\n" +
-            "\uD83C\uDDEB\uD83C\uDDF7 `Citroen`\n_Андре-Гюстав Сітроєн - 1919 рік_\n" +
-            "Компанія Citroen була заснована в 1919 році на набережній Quai de Javel " +
-            "у 15-му окрузі Парижа, неподалік Ейфелевої вежі. Її власник Андре Сітроєн був " +
-            "авантюристом та азартним гравцем, але завдяки вмінням домовлятися з кредиторами, " +
-            "купувати чужі патенти та рекламувати свою продукцію він став " +
-            "найбільшим автовиробником у Європі.\n\n");
+            "\uD83C\uDDEF\uD83C\uDDF5 `Acura`\n_Соітіро Хонда - 1986 рік_\n\n" +
+            "\uD83C\uDDEE\uD83C\uDDF9 `Alfa Romeo`\n_Нікола Ромео - 1910 рік_\n\n" +
+            "\uD83C\uDDEC\uD83C\uDDE7 `Aston Martin`\n_Лайонел Мартін - 1913 рік_\n\n" +
+            "\uD83C\uDDE9\uD83C\uDDEA `Audi`\n_Август Хорьх - 1909 рік_\n\n" +
+            "\uD83C\uDDEC\uD83C\uDDE7 `Bentley`\n_Волтер Бентлі - 1919 рік_\n\n" +
+            "\uD83C\uDDE9\uD83C\uDDEA `BMW`\n_Фріц Фідлер - 1916 рік_\n\n" +
+            "\uD83C\uDDEB\uD83C\uDDF7 `Bugatti`\n_Етторе Бугатті - 1909 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Cadillac`\n_Генрі Леланд - 1902 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Chevrolet`\n_Луї Шевроле - 1911 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Chrysler`\n_Волтер Крайслер - 1925 рік_\n\n" +
+            "\uD83C\uDDEB\uD83C\uDDF7 `Citroen`\n_Андре-Гюстав Сітроєн - 1919 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Dodge`\n_Джон Френсіс і Горас Елджин Додж - 1900 рік_\n\n" +
+            "\uD83C\uDDEE\uD83C\uDDF9 `Ferrari`\n_Енцо Феррарі - 1939 рік_\n\n" +
+            "\uD83C\uDDEE\uD83C\uDDF9 `Fiat`\n_Джованні Аньєллі - 1899 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Ford`\n_Генрі Форд - 1903 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `GM`\n_Вільям Дюрант - 1908 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `GMC`\n_Вільям Дюрант - 1911 рік_\n\n" +
+            "\uD83C\uDDEF\uD83C\uDDF5 `Honda`\n_Соітіро Хонда - 1949 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Hummer`\n_Вільям Дюрант - 1992 рік_\n\n" +
+            "\uD83C\uDDEF\uD83C\uDDF5 `Infiniti`\n_Айкава Йошісуке - 1989 рік_\n\n" +
+            "\uD83C\uDDEC\uD83C\uDDE7 `Jaguar`\n_Вільям Лайонс - 1922 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Jeep`\n_Волтер Крайслер - 1941 рік_\n\n" +
+            "\uD83C\uDDF8\uD83C\uDDEA `Koenigsegg`\n_Крістіан фон Кенігсегг - 1994 рік_\n\n" +
+            "\uD83C\uDDEE\uD83C\uDDF9 `Lamborghini`\n_Ферруччо Ламборгіні - 1963 рік_\n\n" +
+            "\uD83C\uDDEC\uD83C\uDDE7 `Land Rover`\n_Дональд Стокс - 1978 рік_\n\n" +
+            "\uD83C\uDDEF\uD83C\uDDF5 `Lexus`\n_Киічиро Тойода - 1989 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Lincoln`\n_Генрі Леланд - 1917 рік_\n\n" +
+            "\uD83C\uDDEE\uD83C\uDDF9 `Maserati`\n_Ернесто Мазераті - 1914 рік_\n\n" +
+            "\uD83C\uDDE9\uD83C\uDDEA `Maybach`\n_Вільгельм Майбах - 1912 рік_\n\n" +
+            "\uD83C\uDDEF\uD83C\uDDF5 `Mazda`\n_Дюдзіро Мацуда - 1920 рік_\n\n" +
+            "\uD83C\uDDEC\uD83C\uDDE7 `McLaren`\n_Брюс Макларен - 2010 рік_\n\n" +
+            "\uD83C\uDDE9\uD83C\uDDEA `Mercedes-Benz`\n_Карл Бенц - 1926 рік_\n\n" +
+            "\uD83C\uDDEF\uD83C\uDDF5 `Mitsubishi`\n_Ятаро Івасакі - 1970 рік_\n\n" +
+            "\uD83C\uDDEF\uD83C\uDDF5 `Nissan`\n_Ютака Катаяма - 1933 рік_\n\n" +
+            "\uD83C\uDDE9\uD83C\uDDEA `Opel`\n_Адам Опель - 1899 рік_\n\n" +
+            "\uD83C\uDDEE\uD83C\uDDF9 `Pagani`\n_Гораціо Пагані - 1992 рік_\n\n" +
+            "\uD83C\uDDEB\uD83C\uDDF7 `Peugeot`\n_Арман Пежо - 1896 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Plymouth`\n_Волтер Крайслер - 1928 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Pontiac`\n_Елліот Естес - 1907 рік_\n\n" +
+            "\uD83C\uDDE9\uD83C\uDDEA `Porsche`\n_Фердинанд Порше - 1931 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `RAM`\n_Брати Додж - 2010 рік_\n\n" +
+            "\uD83C\uDDEB\uD83C\uDDF7 `Renault`\n_Луї Рено - 1899 рік_\n\n" +
+            "\uD83C\uDDEC\uD83C\uDDE7 `Rolls-Royce`\n_Фредерік Ройс - 1906 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Shelby`\n_Керол Шелбі - 1962 рік_\n\n" +
+            "\uD83C\uDDE8\uD83C\uDDFF `Skoda`\n_Вацлав Клемент - 1905 рік_\n\n" +
+            "\uD83C\uDDEF\uD83C\uDDF5 `Subaru`\n_Кендзі Кіта - 1953 рік_\n\n" +
+            "\uD83C\uDDEF\uD83C\uDDF5 `Suzuki`\n_Мітіо Судзукі - 1954 рік_\n\n" +
+            "\uD83C\uDDFA\uD83C\uDDF8 `Tesla`\n_Ілон Маск - 2003 рік_\n\n" +
+            "\uD83C\uDDE9\uD83C\uDDEA `Volkswagen`\n_Генріх Нордхоф - 1938 рік_\n\n" +
+            "\uD83C\uDDF8\uD83C\uDDEA `Volvo`\n_Ассар Габріельссон - 1927 рік_\n\n");
         sendMessage.setReplyMarkup(Keyboard.createCloseButtonKeyboard());
         sendMessage.enableMarkdown(true);
         try {
@@ -113,3 +115,26 @@ public class MarksButton extends TelegramLongPollingBot {
         }
     }
 }
+
+/*
+    trabant
+    tatra
+    smart
+    seat
+    scion
+    saab
+    rover
+    packard
+    oldsmobile
+    mini
+    mercury
+    lotus
+    lancia
+    jawa
+    isuzu
+    hudson
+    delorean
+    datsun
+    daihatsu
+    daf
+*/
